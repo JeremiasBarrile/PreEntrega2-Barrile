@@ -1,0 +1,205 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .conteiner{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1320px;
+    }
+body {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+    }
+img{
+    max-width: 100%;
+}
+header {
+        background-color: #de9043;
+        position: sticky;
+        top: 0;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .a__logo{
+        margin: 0;
+        width: 160px;
+    }
+      .nav__list{
+        list-style-type: none;
+        display: flex;
+    }
+.nav__link {
+   color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom:solid white 2px;
+      }
+      .nav__link:hover,.nav__link:focus{
+        opacity: 0.65;
+      }
+.nav__item {
+        margin: 0 0 0 1.5rem;
+        font-size: 1.1rem;
+     }
+     /* index.html */
+.beneficios__productos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 125px;
+}
+.beneficios{
+    margin: 20px;
+    border: #de9043 solid 2px;
+box-shadow: 10px 10px 5px  orange;
+}
+.lema {
+    display: flex;
+    left: 40px;
+    margin-top: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Celeste{
+    color: #de9043;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 5px;
+  margin-top: 125px;
+}
+/* index.html */
+
+   /*producto.html */
+  .producto{
+        margin: 20px;
+        padding: 10px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .todos__productos{
+        margin: 10px;
+        border:solid black 1px;
+    }
+    .boton{
+        color: white;
+        margin: 5px;
+        background-color: #de9043;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    /* producto.html */
+
+    /* nosotros.html*/
+.conocenos__fotos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+.conocenos{
+margin-left: 1.25rem;
+border: solid black 2px ;
+}
+/* nosotros.html */
+
+/* contactanos.html */
+.formulario{
+    display: flex;
+    margin: 10px auto;
+    width: 60%;
+    height: 200px;
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 4em;
+    text-align: left;
+    font-size: 1.25rem;
+}
+.formulario button{
+    margin-left: .5em;
+    padding-left: 20px;
+    font-size: 1.25rem;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+.contacto__whatsapp{
+    color: rgb(195, 129, 5);
+    font-size: 2rem;
+    margin:0;
+    padding: 0;
+}
+
+/* contactanos.html */
+
+/* ayuda.html */
+#PyR{
+    color:#AB651F;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.preguntas__respuestas{
+display: flex;
+flex-direction: column;
+text-align: start;
+margin: 10px;
+font-size: 1.15rem;
+
+}
+.preguntas{
+   margin: 10px;
+   padding: 5px;
+}
+/*ayuda.html*/
+
+
+
+
+/* footer */
+.footer{
+    background-color:#AB651F;
+    padding-top: 2rem;
+}
+
+.conteiner__footer{
+    background-color: black;
+    font-size: 1.25rem;
+}
+
+.iconos__footer{
+    text-align: center;
+    color:white
+}
+
+.iconos__footer a{
+    color: white;
+}
+
+.iconos__footer a i{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+.iconos__footer :hover,.iconos__footer:focus{
+    opacity: 0.65;
+}
+.social{
+    color: white;
+    text-align: center;
+}
+/* footer */
+
+
