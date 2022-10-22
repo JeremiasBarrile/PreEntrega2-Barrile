@@ -23,36 +23,66 @@
       <link rel="stylesheet" href="../css/style.css" />
       <!--LOGOTIPO-->
     <link rel="shortcut icon" href="../imagenes/logoNuts.png" type="image/x-icon"/>
+      <!--links de bootstrap css-->
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
             <title>Nuts Rosario</title>
         </head>
         <body>
      <!--Header-->
-        <header>
-            <div class="conteiner">
-                <div class="row">
-                        <a class="a__logo" href="../index.html"> <img src="../imagenes/logoNuts.png" alt=""></a>
-                    <nav >
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a class="nav__link" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="productos.html">Productos</a>
-                            </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="nosotros.html">Conocenos</a>
-                            </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="contacto.html">Contactanos</a>
-                            </li>
-                            <li class="nav__item">
-                                <a class="nav__link" href="ayuda.html">Preguntas Frecuentes</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+     <header>
+        <div class="conteiner">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="a__logo" href="../index.html">
+                <img src="../imagenes/logoNuts.png" alt="logo"
+              /></a>
+  
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="nosotros.html"
+                      >Conocenos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contactanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ayuda.html"
+                      >Preguntas Frecuentes</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-        </header>
+          </nav>
+        </div>
+      </header>
 <!--Main content-->
         <main class="conteiner">
             <div class="contacto">
@@ -99,10 +129,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#AB651F" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </main>
 <!--Footer content-->
-        <footer class="footer">
-            <div class="conteiner__footer">
-                <div class="social">Nuestras redes sociales</div>
-                    <div class="iconos__footer">
+        <footer class="footer pt-3 bg-dark">
+            <div class="text-white row py-4 text-center ">
+                <div class="col-lg-5 col-md-6 mb-md-0">Nuestras redes sociales</div>
+                    <div class="iconos__footer col-lg-7 col-md-6">
                         <a  href="https://www.instagram.com/nutsrosario_/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                         <a  href="https://wa.me/message/ZJH3HBEJG342F1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                         <a  href="https://www.facebook.com/profile.php?id=100063630610605" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -110,5 +140,11 @@
                 </div>
             </div>
         </footer>
+         <!--link bootstrap js-->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
     </body>
 </html>
