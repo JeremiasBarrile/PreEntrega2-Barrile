@@ -35,13 +35,13 @@
     <body>
     <!--Header-->
     <header>
-        <div class="conteiner ">
+        <div class="conteiner">
           <nav class="navbar navbar-expand-lg bg-light">
+
             <div class="container-fluid">
               <a class="a__logo" href="../index.html">
                 <img src="../imagenes/logoNuts.png" alt="logo"
               /></a>
-  
               <button
                 class="navbar-toggler"
                 type="button"
@@ -84,37 +84,62 @@
         </div>
       </header>
     <!--Main content-->
-    
-        <main class="conteiner">
-                <div class="producto">
-                    <div class="todos__productos">
-                        <h4 id="titulo__almendras">Almendras</h4>  <!--almendras-->
-                        <img class="img--productos" src="../imagenes/almendras.jpg" alt="">
-                    <a class="boton" href="#"> Comprar </a></button>
-                    </div>
-                    <div class="todos__productos">
-                    <h4 id="titulo__nueces">Nueces</h4>   <!--nueces-->
-                    <img class="img--productos" src="../imagenes/nueces .jpg" alt="">
-                    <a class="boton" href="#"> Comprar </a></button>
-                    </div>
-                    <div class="todos__productos">
-                        <h4 id="titulo__castañas">Castañas</h4>   <!--castañas-->
-                        <img class="img--productos" src="../imagenes/castañas.jpg" alt="">
-                        <a class="boton" href="#"> Comprar </a></button>
-                    </div>
-                    <div class="todos__productos">   <!--pasas de uva-->
-                        <h4 id="titulo__pasas">Pasas de uva</h4>
-                        <img class="img--productos" src="../imagenes/pasas de uva.jpeg" alt="">
-                        <a class="boton" href="#"> Comprar </a></button>
-                    </div>
-                    <div class="todos__productos">   <!--mix de frutos secos-->
-                        <h4 id="titulo__mfs">Mix de frutos secos</h4>
-                        <img class="img--productos" src="../imagenes/mix-frutos-secos.jpeg" alt="">
-                        <a class="boton" href="#"> Comprar </a></button>
-                     </div>
-                </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#AB651F" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        </main>
+    <main class="container text-center d-flex flex-column justify-content-center alto">
+      <h1 class="display-4">Productos</h1>
+      <div class="row gy-3 ">
+        <article class="col-12 col-md-4">
+          <div class="border border-dark rounded-3">
+            <p class="mt-5 fw-bold">Almendras</p>
+            <h2 class="display-4">$1400 /kg</h2>
+            <p class="font-monospace mt-3"></p>
+           <div>
+            <img class="img-prod" src="../imagenes/almendras.jpg" alt="foto de almendras">
+           </div>
+            <a href="#" class="bg-info text-white d-block py-3 text-decoration-none">comprar</a>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <div class="border border-dark rounded-3">
+            <p class="mt-5 fw-bold">Nueces</p>
+            <h2 class="display-4">$1200 /kg</h2>
+            <p class="font-monospace mt-3"></p>
+           <div>
+            <img class="img-prod" src="../imagenes/nueces .jpg" alt="foto de nueces">
+           </div>
+            <a href="#" class="bg-info text-white d-block py-3 text-decoration-none">Comprar</a>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <div class="border border-dark rounded-3">
+            <p class="mt-5 fw-bold">Pasas de uva</p>
+            <h2 class="display-4">$1400 /kg</h2>
+            <p class="font-monospace mt-3"></p>
+           <div>
+            <img class="img-prod" src="../imagenes/pasas de uva.jpeg" alt="foto de pasas de uva">
+           </div>
+            <a href="#" class="bg-info text-white d-block py-3 text-decoration-none">Comprar</a>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <div class="border border-dark rounded-3 bg-white ">
+            <p class="mt-5 fw-bold">Mix de frutos secos</p>
+            <h2 class="display-4">$1700</h2>
+            <p class="font-monospace mt-3"></p>
+         <img class="img-prod" src="../imagenes/mix-frutos-secos.jpeg" alt="foto de mix de frutos secos">
+            <a href="#" class="bg-info text-white d-block py-3 text-decoration-none">Compras</a>
+          </div>
+        </article>
+        <article class="col-12 col-md-4">
+          <div class="border border-dark rounded-3">
+            <p class="mt-5 fw-bold">Castañas</p>
+            <h2 class="display-4">$2000</h2>
+            <p class="font-monospace mt-3"></p>
+           <img class="img-prod" src="../imagenes/castañas.jpg" alt="foto de castañas">
+            <a href="#" class="bg-info text-white d-block py-3 text-decoration-none">Compras</a>
+          </div>
+        </article>
+      </div>
+    </main>
 <!--Footer content-->
 <footer class="footer pt-3 bg-dark">
   <div class="text-white row py-4 text-center ">
