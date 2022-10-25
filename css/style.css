@@ -37,7 +37,7 @@ header {
 /*producto.html */
 @media (min-width: 992px) {
   .alto {
-    height: 150vh;
+    height: 100%;
   }
 }
 .display-5 {
