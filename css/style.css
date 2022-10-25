@@ -40,6 +40,24 @@ header {
     height: 150vh;
   }
 }
+.display-5 {
+  color: black;
+  font-weight: bold;
+  font-family: "arial";
+  font-size: 4rem;
+  letter-spacing: 15px;
+  text-shadow: 4px 4px 5px #cdcdcd;
+  animation: flotar 3s linear infinite alternate;
+}
+
+@keyframes flotar {
+  form {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
 
 /* nosotros.html*/
 
