@@ -33,6 +33,11 @@ header {
 }
 
 /* index.html */
+#slider {
+  width: 50%;
+  margin-top: 50px;
+  height: auto;
+}
 
 /*producto.html */
 @media (min-width: 756px) {
@@ -70,8 +75,8 @@ header {
 .section-header {
   text-align: center;
   margin: 0 auto;
-  padding: 40px 0;
-  font: 300 40px "Oswald", sans-serif;
+  padding: 20px 0;
+  font: 300 30px "Oswald", sans-serif;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -356,12 +361,10 @@ h1 {
 /* footer */
 .footer {
   background-color: #ab651f;
-  padding-top: 2rem;
-}
-
-.conteiner__footer {
-  background-color: black;
-  font-size: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: sticky;
+  bottom: 0;
 }
 
 .iconos__footer {
